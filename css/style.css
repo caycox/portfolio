@@ -1,0 +1,384 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 0;
+	font: 14px;
+	font-family: "Lucinda Garnde", helvetica, arial, sans-serif;
+}
+
+#landing-page {
+	background-image: url("../imgs/jested.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 700px;
+}
+
+.top-header {
+	margin: 0;
+	padding-top: 260px;
+	color: white;
+	font-size: 65px;
+	text-align: center;
+}
+
+.bottom-header {
+	margin: 0;
+	padding-top: 48px;
+	color: white;
+	font-size: 65px;
+	text-align: center;
+}
+#landing-page button {
+	margin-top: 20px;
+	height: 55px;
+	width: 200px;
+	background: transparent;
+	text-align: center;
+	border-radius: 25px;
+	border: 1px solid white;
+	color: white;
+	font-size: 25px;
+
+}
+#landing-page button:hover {
+	background-color: white;
+	color: rgb(100, 198, 238);
+	transition: 0.3s;
+}
+
+.center-row {
+	text-align: center;
+}
+
+.header-overlay {
+	background-color: rgba(31,31,31,0.4);
+	height: 700px;
+}
+/* General Classes */
+
+h2, h3 {
+	text-align: center;
+}
+
+.underline {
+	background-color: black;
+	padding: 2px 125px;
+	margin: 0 auto;
+}
+
+hr {
+	width: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	border: 1px black solid;
+	text-align: center;
+}
+
+/* Technologies Section */
+
+#technologies {
+	margin-top: 50px;
+
+}
+
+#technologies h2 {
+	padding-top: 60px;
+	text-transform: uppercase; 
+}
+ 
+ .tech-block {
+ 	padding-bottom: 40px;
+ 	width: 90%;
+ }
+.tech {
+	text-align: center;
+	padding-top: 60px;
+	text-transform: uppercase;
+}
+ .circle {
+ 	background-color: rgb(100, 198, 238);
+ 	padding: 2px 10px;
+ 	margin-right: 3px;
+ 	border-radius: 50%;
+ 	height: 20px;
+ 	width: 30px;
+ 	text-align: center;
+}
+
+.e-circle {
+ 	background-color: white;
+ 	border: rgb(100, 198, 238) solid 1px;
+ 	padding: 2px 10px;
+ 	margin-right: 3px;
+ 	border-radius: 50%;
+ 	height: 20px;
+ 	width: 30px;
+ 	text-align: center;
+}
+
+/* About Me Section */
+
+.about-me {
+	min-height: 500px;
+	background-color: rgb(100, 198, 238);
+}
+
+.about-me h2 {
+	text-align: center;
+	padding-top: 70px;
+	text-transform: uppercase;
+	font-weight: 500px; 
+	margin-bottom: 20px;
+}
+
+.about-me h3 {
+	text-transform: uppercase;
+}
+
+.about-me {
+	font-size: 20px;
+}
+
+.about-me-cont {
+	text-align: center;
+}
+
+i {
+	border: black solid 5px;
+	padding: 30px;
+	border-radius: 50%;
+	margin: 40px;
+}
+
+i:hover {
+	color: white;
+	border: white solid 5px;
+	transition: 0.3s;
+}
+
+/* projects Section */
+
+.projects {
+	background-color: rgba(232, 233, 229, 0.712); 
+	padding-bottom: 150px;
+	overflow: hidden;
+}
+ 
+ .projects h2 {
+ 	text-transform: uppercase;
+ 	margin: 0px;
+ 	padding-top: 70px; 
+ }
+
+ .project-block {
+ 	margin-top: 40px;
+ 	width: 100%;
+ }
+
+.project-row {
+	margin-bottom: 90px;
+}
+
+.project-cont {
+	text-align: center;
+	height: 200px;
+	margin-bottom: 120px;
+	padding: 30px 0;
+}
+.project-cont:hover .middle {
+	opacity: 1;
+}
+
+.project-cont img {
+	height: auto;
+	width: 90%;
+	padding: 20px 10px;
+	margin-bottom: 50px;
+	overflow-y: hidden;
+	opacity: 1;
+}
+
+.project-cont img:hover {
+	width: 92%;
+	height: auto;
+	overflow: hidden;
+	opacity: 0.7;
+}
+
+.middle {
+	transform: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+.text {
+	background-color: rgb(100, 198, 238);
+	color: white;
+	font-size: 15px;
+	padding: 16px;
+	border-radius: 25px;
+	text-align: center;
+}
+
+/* Hire Me Section */
+
+.hire-me {
+	height: 300px;
+	background-color: rgb(100, 198, 238);
+}
+
+.hire-me h2 {
+	padding-top: 40px;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.button-col {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.button {
+	background-color: rgb(100, 198, 238);
+	border: 3px solid black;
+	border-radius: 45px;
+	padding: 10px;
+	width: 300px;
+	text-align: center;
+	font-size: 25px;
+	text-decoration: none;
+	color: black;
+}
+
+.button:hover {
+	text-decoration: none;
+	color: white;
+	border-color: white;
+	transition: .3s;
+}
+
+/* contact Me Section */
+
+.contact-me {
+	margin-bottom: 50px;
+}
+
+.contact-me h2 {
+	text-transform: uppercase;
+}
+
+.form-cont {
+	margin-top: 80px;
+}
+
+.contact-me p {
+	text-align: center;
+	font-size: 25px;
+}
+
+.contact-me label {
+	text-align: right;
+	padding-right: 80px;
+	text-transform: uppercase;
+}
+
+.contact-me input {
+	height: 40px;
+	margin-bottom: 15px;
+	font-size: 20px;
+	border: 0.5px solid grey;
+}
+
+.contact-me textarea {
+	font-size: 20px;
+	border: 0.5px solid grey;
+}
+
+.send-email-button {
+	background-color: transparent;
+	border: 3px solid rgb(100, 198, 238);
+	border-radius: 45px;
+	padding: 10px 5px;
+	width: 200px;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 25px;
+	text-decoration: none;
+	color: rgb(100, 198, 238);
+}
+
+.send-email-button:hover {
+	background-color: rgb(100, 198, 238);
+	color: white;
+	transition: 0.3s;
+}
+
+/* Footer Section */
+
+footer {
+	background-color: rgba(0,0,0,0.8);
+}
+
+footer h1 {
+	padding: 40px;
+	color: grey;
+	text-align: center;
+}
+
+footer p {
+	color: lightgrey;
+	text-align: center;
+}
+
+.icon-col {
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.icon-col i {
+	color: whitesmoke;
+	border-color: whitesmoke;
+
+}
+
+.icon-col i:hover {
+	color: rgb(100, 198, 238);
+	border-color: rgb(100, 198, 238);
+	transition: 0.3s;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	textarea {
+		width: 500px;
+		margin: 0 auto;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	/* For Mobile Phones */
+	textarea {
+		width: 80%;
+		margin: 0 10%;
+	}
+	input {
+		width: 80%;
+		margin: 0 10%;
+	}
+}
+
+
+
+
+
